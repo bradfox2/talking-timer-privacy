@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talking Timer Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d21; --muted: #5b6472;
+    --rule: #e3e7ec; --accent: #17864f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --fg: #e8ecf1; --muted: #99a3b3;
+      --rule: #232a35; --accent: #3ddc84;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  .lede {
+    border-left: 3px solid var(--accent); padding: .1rem 0 .1rem 1rem;
+    margin: 0 0 2rem; font-size: 1.05rem;
+  }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: .9rem; }
+  code { font-size: .92em; background: var(--rule); padding: .1em .35em; border-radius: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Talking Timer — Privacy Policy</h1>
+  <p class="updated">Last updated 30 September 2026</p>
+
+  <p class="lede">Talking Timer does not collect, store, transmit, or share any
+  personal data.</p>
+
+  <h2>What the app cannot do</h2>
+  <p>The app does not request the <code>INTERNET</code> permission. It is
+  therefore technically incapable of sending any information off your device,
+  to the developer or to anyone else. There are no analytics, no crash
+  reporting, no advertising identifiers, no third-party SDKs, and no accounts.</p>
+
+  <h2>What is stored on your device</h2>
+  <p>The app saves your chosen work and rest durations and your three settings
+  (Repeat sets, Voice callouts, Keep screen on) in Android's standard private
+  app storage. This never leaves your device and is deleted when you uninstall
+  the app.</p>
+
+  <h2>Permissions and why they are used</h2>
+  <ul>
+    <li><strong>Notifications</strong> — to show the ongoing timer notification
+    with Pause and Stop buttons while a timer is running.</li>
+    <li><strong>Run foreground service</strong> — to keep the countdown running
+    and speaking when the screen is off or the app is in the background.</li>
+    <li><strong>Prevent device from sleeping</strong> — to keep the countdown
+    accurate while the screen is off.</li>
+    <li><strong>Vibrate</strong> — to buzz at the end of each interval.</li>
+    <li><strong>Ignore battery optimisations</strong> — optional, and only ever
+    requested when you tap the notice in the app. Some devices terminate even a
+    foreground service, which would stop the timer mid-workout.</li>
+  </ul>
+
+  <h2>Text-to-speech</h2>
+  <p>Spoken callouts are produced by the text-to-speech engine already installed
+  on your device, typically Google's. The app passes short strings such as
+  "thirty seconds" to that engine. Handling of that text is governed by the
+  privacy policy of the text-to-speech engine you have installed, not by this
+  app.</p>
+
+  <h2>Children</h2>
+  <p>The app is a general-purpose fitness utility and is not directed at
+  children. It collects no data from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this same
+  address with a new "last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:brad@getnuclearn.com">brad@getnuclearn.com</a></p>
+
+  <hr>
+  <footer>Talking Timer is developed by Bradley Fox.</footer>
+</main>
+</body>
+</html>
